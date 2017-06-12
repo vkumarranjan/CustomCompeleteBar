@@ -12,6 +12,8 @@
 		28E4AE941EEE9A2B00564E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E4AE921EEE9A2B00564E70 /* Main.storyboard */; };
 		28E4AE961EEE9A2C00564E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E4AE951EEE9A2C00564E70 /* Assets.xcassets */; };
 		28E4AE991EEE9A2C00564E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E4AE971EEE9A2C00564E70 /* LaunchScreen.storyboard */; };
+		28E4AEA21EEECEE100564E70 /* VKRAutoCompleteInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4AEA11EEECEE100564E70 /* VKRAutoCompleteInputView.swift */; };
+		28E4AEA41EEECF1000564E70 /* VKRTextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E4AEA31EEECF1000564E70 /* VKRTextfieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		28E4AE951EEE9A2C00564E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28E4AE981EEE9A2C00564E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28E4AE9A1EEE9A2C00564E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E4AEA11EEECEE100564E70 /* VKRAutoCompleteInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKRAutoCompleteInputView.swift; sourceTree = "<group>"; };
+		28E4AEA31EEECF1000564E70 /* VKRTextfieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKRTextfieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,22 @@
 				28E4AE8E1EEE9A2B00564E70 /* AppDelegate.swift */,
 				28E4AE901EEE9A2B00564E70 /* ViewController.swift */,
 				28E4AE921EEE9A2B00564E70 /* Main.storyboard */,
+				28E4AEA01EEECE3800564E70 /* CustomAutobar */,
 				28E4AE951EEE9A2C00564E70 /* Assets.xcassets */,
 				28E4AE971EEE9A2C00564E70 /* LaunchScreen.storyboard */,
 				28E4AE9A1EEE9A2C00564E70 /* Info.plist */,
 			);
 			path = CustomAutoCompleteBar;
+			sourceTree = "<group>";
+		};
+		28E4AEA01EEECE3800564E70 /* CustomAutobar */ = {
+			isa = PBXGroup;
+			children = (
+				28E4AEA11EEECEE100564E70 /* VKRAutoCompleteInputView.swift */,
+				28E4AEA31EEECF1000564E70 /* VKRTextfieldExtension.swift */,
+			);
+			name = CustomAutobar;
+			path = Base.lproj/CustomAutobar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E4AE911EEE9A2B00564E70 /* ViewController.swift in Sources */,
+				28E4AEA21EEECEE100564E70 /* VKRAutoCompleteInputView.swift in Sources */,
 				28E4AE8F1EEE9A2B00564E70 /* AppDelegate.swift in Sources */,
+				28E4AEA41EEECF1000564E70 /* VKRTextfieldExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +318,7 @@
 				28E4AE9F1EEE9A2C00564E70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
